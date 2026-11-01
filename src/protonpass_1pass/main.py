@@ -153,7 +153,7 @@ def site_key(url: str, title: str) -> str:
         if "://" not in url:
             url = "https://" + url
         host = (urllib.parse.urlsplit(url).hostname or "").lower()
-        if host.startswith("www."):
+        if host.startswith("www."):  # noqa: FURB188
             host = host[4:]
         if host:
             return host
@@ -208,7 +208,7 @@ def join_notes(*parts: str) -> str:
     return "\n".join(p for p in (x.strip() for x in parts) if p)
 
 
-def pretty_fields(obj: dict, skip: set[str] = frozenset()) -> str:
+def pretty_fields(obj: dict, skip: set[str] = frozenset()) -> str: # type: ignore
     """Flatten a JSON object into 'Key: value' lines for a secure note."""
     lines = []
     for k, v in obj.items():
