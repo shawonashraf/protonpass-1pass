@@ -2,7 +2,7 @@
 
 A formatter for csv vault exports from protonpass to be imported into 1password.
 
-**Disclaimer:** I've been personally quite unhappy with the state of ProtonPass in general, how it fails to autofill on most websites on chromium based browsers and decided to migrate. This project has nothing to do with their recent community debacle.
+**Disclaimer:** I've been recently quite unhappy with the state of ProtonPass in general, e.g. how it fails to autofill on most websites on chromium based browsers unless I refresh, lack of a proper development roadmap for features, and decided to migrate. This project has nothing to do with their recent community debacle.
 
 ## pre-requisites
 
