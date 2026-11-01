@@ -1,7 +1,7 @@
 [project]
 name = "protonpass-1pass"
 version = "0.1.0"
-description = "Add your description here"
+description = "A cli tool to format proton password exported csvs into 1password supported format"
 readme = "README.md"
 authors = [
     { name = "shawonashraf", email = "" }
