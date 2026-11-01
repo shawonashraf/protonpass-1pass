@@ -1,0 +1,10 @@
+type,name,url,autofillUrls,email,username,password,note,totp,createTime,modifyTime,vault
+login,GitHub,"https://github.com/login, https://gist.github.com","[{""url"":""https://github.com/login"",""mode"":0},{""url"":""https://gist.github.com"",""mode"":1}]",octo@example.com,octocat,"pw,with""quote",Personal account,otpauth://totp/GitHub:octocat?secret=JBSWY3DPEHPK3PXP&issuer=GitHub,1789426882,1789426882,Personal
+login,Bank,https://bank.example,,me@example.com,,secret123,"Line one
+Line two",JBSW Y3DP EHPK 3PXP,1789426882,1789426882,Work
+login,NoPassword,https://x.example,,,someone,,,,1,1,Personal
+creditCard,Travel card,,,,,,"{""cardholderName"":""A Person"",""cardType"":1,""number"":""4111111111111111"",""verificationNumber"":""123"",""expirationDate"":""2028-03"",""pin"":""1234"",""note"":""travel only""}",,1789426920,1789426920,Personal
+alias,Newsletters,,,shop.x7k2@passmail.net,,,,,1789426950,1789426950,Personal
+note,Wifi guest,,,,,,"SSID: guest, pass in router",,1,1,Personal
+identity,Me,,,,,,"{""fullName"":""A Person"",""email"":""a@example.com"",""city"":""Eindhoven"",""note"":""main id""}",,1,1,Personal
+custom,Office door code,,,,,,,,1789427001,1789427001,Personal

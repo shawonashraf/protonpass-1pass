@@ -1,0 +1,17 @@
+[project]
+name = "protonpass-1pass"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "shawonashraf", email = "7804029+shawonashraf@users.noreply.github.com" }
+]
+requires-python = ">=3.14"
+dependencies = []
+
+[project.scripts]
+protonpass-1pass = "protonpass_1pass:main"
+
+[build-system]
+requires = ["uv_build>=0.12.21,<0.13.0"]
+build-backend = "uv_build"
