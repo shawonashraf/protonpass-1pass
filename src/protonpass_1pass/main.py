@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """
 Convert a Proton Pass CSV export into 1Password-importable CSV files.
 
